@@ -58,39 +58,36 @@
         </div>
       </div>
     </section>
-  </main>
 
-  <script src="main.js"></script>
-</body>
-
-<!-- <body>
-  <header>
-
-  </header>
-
-  <main>
     <section class="container-fluid">
-      <div class="text-center">
-        <h1>SCORE</h1>
+      <div class="row">
+        <div class="col-12 justify-content-evenly d-inline-flex mt-2">
+          <button class="btn btn-danger" id="button" onclick="minusScore()">HOME -1</button>
+          <button class="btn btn-danger" id="button" onclick="minusScoreToo()">AWAY -1</button>
+        </div>
       </div>
-      <div class="row justify-content-evenly text-center">
-        <div class="col-md-3 score-card m-1 p-1">
-          <h2 id="team-one">0</h2>
-          <button class="btn btn-primary" id="button" onclick="clickStuff()">+1</button>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 justify-content-evenly d-inline-flex mt-2">
+          <button class="btn btn-danger" id="button" onclick="minusScoreThree()">HOME -3</button>
+          <button class="btn btn-danger" id="button" onclick="minusScoreTooThree()">AWAY -3</button>
         </div>
-        <div class="col-md-3 score-card m-1 p-1 text-center">
-          <h2 id="team-two">0</h2>
-          <button class="btn btn-primary" id="button" onclick="clickStuffToo()">+1</button>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 justify-content-evenly d-inline-flex mt-2">
+          <button class="btn btn-danger" id="button" onclick="resetOne()">RESET HOME</button>
+          <button class="btn btn-danger" id="button" onclick="resetTwo()">RESET AWAY</button>
         </div>
-        <button class="btn btn-danger" style="width: 25%" onclick="resetScore()">Reset</button>
       </div>
     </section>
   </main>
 
-  <footer>
-
-  </footer>
   <script src="main.js"></script>
-</body> -->
+</body>
 
 </html>
