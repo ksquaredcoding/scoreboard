@@ -1,0 +1,29 @@
+.hero {
+  background-image: url('https://www.mlive.com/resizer/_SJnRLtLzC1muGXvUOrmH3eJYms=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/KY3VPYLJIZHCPA3RG52NB4UFMA.JPG');
+  height: 65vh;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+}
+
+.score-card {
+  background-color: rgba(75, 145, 255, 0.9);
+  border: .25rem solid gainsboro;
+  border-radius: .25rem;
+  height: 25vh;
+  width: 25vw;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.scoreboard {
+  background-color: rgba(0, 145, 255, 0.8);
+  border: .25rem solid gainsboro;
+  border-radius: .15rem;
+  margin: 2rem;
+  padding: 1rem;
+  height: 60vh;
+  width: 60vw;
+}
